@@ -51,3 +51,4 @@ if (haNumeri) {
     console.log ('Attenzione la parola inserita non deve contenere nuemri')
 }
 
+

@@ -8,6 +8,8 @@ creo un prompt per far scegliere pari e disparie e un numero da 1 a 5
 
 creo la funzione per generare un numero random
 
-staboilisco se il numero e pari o dispari
+sommo i due numeri
+
+stabilisco se il numero e pari o dispari
 
 dichiaro chi ha vinto
