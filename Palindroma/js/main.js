@@ -19,6 +19,19 @@ function palindroma (string) {
     return true
 }
 
+// funzione per controllare se la parola contiene numeri
+
+function contieneNumeri (string) {
+    for (let i = 0; i < string.length; i++){
+
+         // verifica se il carattere e un numero
+        if (!isNaN(parseInt(string[i]))) {
+            return true;
+        }
+    }
+    return false;
+}
+
 
 // stampo in console se la parola e palindroma 
 
@@ -28,5 +41,13 @@ if (veroPalindromo) {
     console.log('È un palindromo')
 } else {
     console.log('Non è palindromo')
+}
+
+// stampo in console errore se la parola contiene numeri
+
+const haNumeri = contieneNumeri(parolaUser)
+
+if (haNumeri) {
+    console.log ('Attenzione la parola inserita non deve contenere nuemri')
 }
 
